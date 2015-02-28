@@ -1,0 +1,191 @@
+html {
+  background-color: #fff;
+  color: #000;
+  box-sizing: border-box;
+  font-family: 'Merriweather';
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #d05c2e;
+  margin: 0px;
+  overflow: hidden;
+
+}
+
+h1 {
+  font-family: 'Merriweather';
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+  font-size: 2rem;
+  padding-top: 1em;
+}
+
+nav {
+  overflow: hidden;
+  margin: 0;
+  clear: left;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: center;
+  float: left;
+  width: 33.33%;
+  border: 1px solid #a93f35;
+  padding: 0.5em;
+}
+
+nav a {
+  padding: 0.5em;
+  margin: 0.20em;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Merriweather';
+}
+
+nav li:hover {
+  background-color: #a93f35;
+}
+
+body {
+  margin: 0px;
+}
+
+
+h2 {
+  background-color: #dc8252;
+  text-align: center;
+  color: #fff;
+  font-family: 'Merriweather';
+  padding: 0.5em;
+}
+
+div {
+  background-color: #dc8252;
+  overflow: hidden;
+  border: 1px solid #d05c2e;
+  clear: right;
+
+}
+
+p {
+  font-family: 'Merriweather';
+  margin: 1em;
+  font-weight: 300rem;
+  font-size: 0.75rem;
+}
+
+.inset-left {
+  float: left;
+  width: 10%;
+  margin: 15px;
+}
+
+.inset-right {
+  float: right;
+  width: 10%;
+  margin: 15px;
+}
+
+.inset-left2 {
+  float: left;
+  width: 30%;
+  margin: 15px;
+}
+
+.inset-corn {
+  width: 100%;
+}
+
+.inset-rice {
+  width: 50%;
+  float: left;
+}
+
+.inset-oats {
+  width: 50%;
+  float: right;
+}
+
+.corn {
+  font-family: 'Merriweather';
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+}
+
+.rice {
+  float: left;
+  width: 50%;
+  font-family: 'Merriweather';
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+  padding: 0em 0em 2em 0em;
+}
+
+.oats {
+  float: left;
+  width: 50%;
+  font-family: 'Merriweather';
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+  padding: 0em 0em 2em 0em;
+
+}
+
+.inset-left3 {
+  float: right;
+  width: 35%;
+  margin-right: 15px;
+  padding: 0.5em;
+
+}
+
+.inset-left4 {
+  width: 35%;
+  float: right;
+  margin-right: 15px;
+  clear: right;
+  padding: 0.5em;
+}
+
+.p2 {
+  clear: left;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: #d05c2e;
+  color: #dc8252;
+  text-align: center;
+  padding:2rem;
+}
+
+.peanuts {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.italics {
+  font-style: italic;
+
+}
