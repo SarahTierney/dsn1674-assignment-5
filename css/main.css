@@ -69,6 +69,7 @@ h2 {
   color: #fff;
   font-family: 'Merriweather';
   padding: 0.5em;
+  margin: 0.5em;
 }
 
 div {
@@ -106,6 +107,7 @@ p {
 
 .inset-corn {
   width: 100%;
+  margin: 0px;
 }
 
 .inset-rice {
@@ -123,7 +125,9 @@ p {
   font-style: italic;
   color: #fff;
   text-align: center;
-  margin-top: 1px;
+  margin: 0em;
+  padding: 0em 0em 1.5em 0em;
+
 }
 
 .rice {
@@ -134,7 +138,7 @@ p {
   color: #fff;
   text-align: center;
   margin: 0px;
-  padding: 0em 0em 2em 0em;
+  padding: 0em 0em 1.5em 0em;
 }
 
 .oats {
@@ -145,7 +149,7 @@ p {
   color: #fff;
   text-align: center;
   margin: 0px;
-  padding: 0em 0em 2em 0em;
+  padding: 0em 0em 1.5em 0em;
 
 }
 
