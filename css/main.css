@@ -99,12 +99,6 @@ p {
   margin: 15px;
 }
 
-.inset-left2 {
-  float: left;
-  width: 30%;
-  margin: 15px;
-}
-
 .inset-corn {
   width: 100%;
   margin: 0px;
@@ -153,6 +147,12 @@ p {
 
 }
 
+.inset-left2 {
+  float: left;
+  width: 35%;
+  margin: 15px;
+}
+
 .inset-left3 {
   float: right;
   width: 35%;
@@ -183,6 +183,7 @@ footer {
   color: #dc8252;
   text-align: center;
   padding:1rem;
+  clear: left;
 }
 
 .peanuts {
@@ -197,30 +198,35 @@ footer {
 
 .inset-peanuts {
   width: 35%;
-  margin-right: 15px;
+  margin-right: 1em;
   padding: 0.5em;
+  float: left;
 }
 
 .inset-beans {
   width: 35%;
-  margin-right: 15px;
+  margin-right: 1em;
   padding: 0.5em;
+  clear: left;
+  float: left;
 }
 
 .inset-lentils {
   width: 35%;
-  margin-right: 15px;
+  margin-right: 1em;
   padding: 0.5em;
 }
 
+
+
 .line1 {
-  float: right;
+  /*float: right;*/
 }
 
 .line2 {
-  clear: left;
+  /*clear: left;*/
 }
 
 .line3 {
-  float: right;
+  /*float: right;*/
 }
