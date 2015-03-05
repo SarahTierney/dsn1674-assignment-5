@@ -23,7 +23,7 @@ h1 {
   text-align: center;
   margin: 0px;
   font-size: 2rem;
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 
 nav {
@@ -52,6 +52,7 @@ nav a {
   color: #fff;
   text-decoration: none;
   font-family: 'Merriweather';
+  font-size: 1.25rem;
 }
 
 nav li:hover {
@@ -85,12 +86,12 @@ p {
   font-family: 'Merriweather';
   margin: 1em;
   font-weight: 300rem;
-  font-size: 1rem;
+  font-size: 0.90rem;
 }
 
 .inset-left {
   float: left;
-  width: 10%;
+  width: 8%;
   margin: 15px;
   border: 0px;
 
@@ -98,7 +99,7 @@ p {
 
 .inset-right {
   float: right;
-  width: 10%;
+  width: 8%;
   margin: 15px;
   border: 0px;
 
@@ -199,7 +200,7 @@ footer {
   color: #dc8252;
   text-align: center;
   padding:1rem;
-  clear: left;
+  clear: both;
 }
 
 .peanuts {
