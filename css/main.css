@@ -191,6 +191,7 @@ img {
 h3 {
   text-align: center;
   font-size: 1.5rem;
+  margin-bottom: 2em;
 }
 
 footer {
@@ -212,23 +213,23 @@ footer {
 }
 
 .inset-peanuts {
-  width: 35%;
-  margin-bottom: 1em;
+  width: 25%;
+  margin: 0em 0em 2em 1em;
   padding: 0em;
   float: left;
 }
 
 .inset-beans {
-  width: 35%;
-  margin-bottom: 1em;
+  width: 25%;
+  margin: 0em 0em 2em 1em;
   padding: 0em;
   clear: left;
   float: left;
 }
 
 .inset-lentils {
-  width: 35%;
-  margin-bottom: 1em;
+  width: 25%;
+  margin: 0em 0em 2em 1em;
   padding: 0em;
   clear: left;
   float: left;
