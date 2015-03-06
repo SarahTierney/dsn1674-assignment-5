@@ -18,7 +18,6 @@ header {
 }
 
 h1 {
-  font-family: 'Merriweather';
   color: #fff;
   text-align: center;
   margin: 0px;
@@ -51,7 +50,6 @@ nav a {
   margin: 0.20em;
   color: #fff;
   text-decoration: none;
-  font-family: 'Merriweather';
   font-size: 1.15rem;
 }
 
@@ -68,23 +66,20 @@ h2 {
   background-color: #dc8252;
   text-align: center;
   color: #fff;
-  font-family: 'Merriweather';
   padding: 0.5em;
   margin: 0.5em;
 }
 
-div {
+.top {
   background-color: #dc8252;
   overflow: hidden;
   border-top: 1px solid #d05c2e;
   border-bottom: 1px solid #d05c2e;
   clear: right;
-
 }
 
 p {
-  font-family: 'Merriweather';
-  margin: 1em;
+  margin: 0.5em;
   font-size: 0.85rem;
 }
 
@@ -130,7 +125,6 @@ img {
 }
 
 .corn {
-  font-family: 'Merriweather';
   font-style: italic;
   color: #fff;
   text-align: center;
@@ -141,7 +135,6 @@ img {
 .rice {
   float: left;
   width: 50%;
-  font-family: 'Merriweather';
   font-style: italic;
   color: #fff;
   text-align: center;
@@ -152,7 +145,6 @@ img {
 .oats {
   float: left;
   width: 50%;
-  font-family: 'Merriweather';
   font-style: italic;
   color: #fff;
   text-align: center;
@@ -164,14 +156,14 @@ img {
 .inset-left2 {
   float: left;
   width: 35%;
-  margin: 10px;
+  margin: 0.5em;
 }
 
 .inset-left3 {
   float: right;
   width: 35%;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
   padding: 0em;
 
 }
@@ -179,7 +171,7 @@ img {
 .inset-left4 {
   width: 35%;
   float: right;
-  margin: 10px;
+  margin: 0.5em;
   clear: right;
   padding: 0em;
 }
@@ -198,7 +190,7 @@ footer {
   background-color: #d05c2e;
   color: #dc8252;
   text-align: center;
-  padding:1rem;
+  padding:1em;
   clear: both;
   font-size: 0.75rem;
 }
@@ -210,17 +202,26 @@ footer {
 
 .italics {
   font-style: italic;
-
 }
 
-.inset-peanuts {
+.main {
   width: 25%;
   margin: 0em 0em 2em 1em;
-  padding: 0em;
+  padding: 0;
   float: left;
+  clear: left;
+  box-sizing: border-box;
+
 }
 
-.inset-beans {
+.sidebar {
+  margin: 0em 0em 0em 0.75em;
+  float: left;
+  box-sizing: border-box;
+}
+
+
+/*.inset-beans {
   width: 25%;
   margin: 0em 0em 2em 1em;
   padding: 0em;
@@ -237,16 +238,20 @@ footer {
 }
 
 .line1 {
-  float: left;
   margin: 0em 0em 0em 0.75em;
+  float: left;
 }
 
 .line2 {
-  float: left;
+  float: right;
+  clear: left;
   margin: 0em 0em 0em 0.75em;
+  width: 75%;
 }
 
 .line3 {
-  float: left;
+  float: right;
   margin: 0em 0em 0em 0.75em;
+  width: 75%;
 }
+*/
